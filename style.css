@@ -1,0 +1,59 @@
+QWidget{
+    background-color: #1e1e2f;
+    font-family: Segoe UI;
+}
+
+QLabel{
+    color: white;
+}
+
+QLabel#city_label{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+QLineEdit#city_input{
+    font-size: 22px;
+    padding: 12px;
+    border: 2px solid #5c5cff;
+    border-radius: 15px;
+    background-color: #2d2d44;
+    color: white;
+    margin: 15px 40px;
+}
+
+QPushButton#get_weather_button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 15px;
+    background-color: #5c5cff;
+    color: white;
+    margin: 10px 80px;
+}
+
+QPushButton#get_weather_button:hover{
+    background-color: #7d7dff;
+}
+
+QPushButton#get_weather_button:pressed{
+    background-color: #4040cc;
+}
+
+QLabel#temperature_label{
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-top: 20px;
+}
+
+QLabel#emoji_label{
+    font-size: 80px;
+}
+
+QLabel#description_label{
+    font-size: 28px;
+    color: #dcdcdc;
+    margin-bottom: 20px;
+}
